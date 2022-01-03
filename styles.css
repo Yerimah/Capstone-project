@@ -33,9 +33,51 @@ h2 {
     margin-bottom: 15px;
 }
 
+.main-head h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "lato", sans-serif;
+    margin-top: 40px;
+}
+
+hr {
+    width: 10%;
+    margin-top: 20px;
+    height: 2px;
+    background-color: #e41c06;
+}
+
+.description {
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    line-height: 24px;
+}
+
+span {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-top: 10px;
+}
+
 .bars {
-    position: fixed;
+    position: absolute;
     padding: 20px 30px;
+}
+
+.main-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro {
@@ -43,12 +85,10 @@ h2 {
 }
 
 .hero {
-    position: relative;
     padding: 10px 30px;
     width: 100%;
     height: 100vh;
-    background-image: url(./images/events.jpeg);
-    background-size: cover;
+    background: #d3d3d3;
     
 }
 
@@ -56,6 +96,7 @@ h2 {
     background-image: url(./images/programback.png);
     background-color: #272A31;
     background-repeat: repeat;
+    padding: 10px 30px;
     
 }
 
@@ -99,7 +140,6 @@ h2 {
         height: 70px;
         padding: 0 120px;
         background-color: white;
-        margin-bottom: 120px;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     }
 
