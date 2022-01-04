@@ -1,3 +1,12 @@
+@font-face{ 
+	font-family: 'cocogoose';
+	src: url('Cocogoose.eot');
+	src: url('Cocogoose.eot?#iefix') format('embedded-opentype'),
+	     url('Cocogoose.woff') format('woff'),
+	     url('Cocogoose Pro Ultralight-trial.ttf') format('truetype'),
+	     url('Cocogoose.svg#webfont') format('svg');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -30,7 +39,7 @@ h2 {
     font-weight: 700;
     color: #EC5242;
     font-size: 42px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 .main-head h3 {
@@ -52,14 +61,15 @@ hr {
     font-family: "lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
     border: 1px solid white;
     line-height: 24px;
 }
 
 span {
     font-size: 30px;
+    font-family: "lato", sans-serif;
     font-weight: 900;
     margin-bottom: 25px;
 }
@@ -88,16 +98,112 @@ p {
     padding: 10px 30px;
     width: 100%;
     height: 100vh;
-    background: #d3d3d3;
+    background:linear-gradient(rgb(211, 211, 211, 0.4), rgb(211, 211, 211, 0.4)), url(./images/desktop.jpg) no-repeat;
     
 }
+
+/* Style for main program section */
 
 .main-program {
     background-image: url(./images/programback.png);
     background-color: #272A31;
     background-repeat: repeat;
+    padding: 10px 30px;    
+}
+
+.lecture {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.lecture h3 {
+    color: #EC5242;
+}
+
+.btn {
+    background: #EC5242;
+    color: white;
+    height: 82px;
+    font-size: 18px;
+    width: max-content;
+    padding: 20px 40px;
+    border: none;
+    margin: 35px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* FEATURED SPEAKERS SECTION */
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "lato", sans-serif;
+    margin-top: 40px;
+}
+
+.featured hr {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.speakers {
     padding: 10px 30px;
-    
+}
+
+.card {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-family: "lato", sans-serif;
+}
+
+#title {
+    color: #EC5242;
+}
+
+.card .bio hr {
+    background-color: #d3d3d3;
+    width: 5%;
+}
+
+/* Partners section */
+
+.partners {
+    background-color: #272A31;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand h3 {
+    color: white;
+    font-family: "lato",sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -153,4 +259,6 @@ p {
         padding: 25px;
         color: #272A31;
     }
+
+
 }
