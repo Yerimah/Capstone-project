@@ -50,7 +50,7 @@
     padding: 20px;
     background-color: white;
     border: 3px solid white;
-    line-height: 37px;
+    line-height: 24px;
     color: #585858;
   }
   
@@ -59,14 +59,14 @@
     text-align: center;
     font-family: 'lato', sans-serif;
     font-size: 15px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     margin-top: 10px;
   }
 
   span {
     font-weight: 900;
-    font-size: 19px;
+    font-size: 15px;
     text-decoration: underline;
 
   }
@@ -88,8 +88,113 @@
     background-position: center;
     padding: 10px 30px;
     width: 100%;
-    height: 76vh;
+    height: 100vh;
     line-height: 25px;
+  }
+
+  .summit-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .summit-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+
+  .summit-head h2 {
+    font-family: 'lato', sans-serif;
+    color: #585858;
+    text-align: center;
+  }
+
+  .summit-head hr {
+    margin-top: -23px;
+  }
+
+.summit-logo p {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+  .afrilogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    margin-top: 30px;
+  }
+
+.past-events {
+    padding: 10px 30px;
+}
+
+  .past {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .past h2 {
+    font-size: 25px;
+    color: black;
+    font-family: 'lato', sans-serif;
+  }
+
+  .past hr {
+    margin-top: -6%;
+  }
+
+  .past-events p {
+    margin-top: 12px;
+  }
+
+  .event-container {
+      margin-top: 50px;
+  }
+
+  .second-event {
+    background-image: url('../images/nationtech.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 194px;
+  }
+
+  .first-event {
+    background-image: url('../images/techevent.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 194px;
+  }
+
+  .event-content {
+    
+  }
+
+  .year {
+    color: white;
+    font-weight: 500;
+}
+
+.city {
+   color: white;
+}
+
+  .partners {
+  display: block;
+    margin-top: 60px;
+    text-align: center;
+    background-color: #272a31;
   }
 
   @media only screen and (min-width: 768px) {
