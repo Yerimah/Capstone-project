@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="./Styles/styles.css" type="text/css" charset="utf-8">
     <script src="https://kit.fontawesome.com/c2d0b29889.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -35,7 +34,7 @@
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Sponsor</a></li>
                 <li><a href="#">News</a></li>
-                <li><a href="#">CC Campaign</a></li>
+                <li class="border-about"><a href="#">CC Campaign</a></li>
             </ul>
         </nav>
     </div>
@@ -50,7 +49,7 @@
     <section class="hero">
         <div class="container intro">
         <h1>"Hello! Tech Africa"</h1>
-        <h2>AFRICA TECH SUMMIT 2022</h2>
+        <h2>FRESH START <br> AFRICA TECH SUMMIT 2022</h2>
         <P class="description">The Africa tech summit is an event where leaders from all around Africa connects, explore and invest. Happening on the 5th of April in Nigeria</P>
         <h3><span>2022.04.05(TUE) - 08(FRI)</span></h3>
         <P>@ International Conference Center, Garki, Abuja, Nigeria.</P>
@@ -62,36 +61,47 @@
         <h3>Main Program</h3>
         <hr>
         </div>
-        <article>
+        <div class="main-blocks">
             <div class="lecture">
-                <img src="" alt="">
-                <h3>Lecture</h3>
-                <p>For this event, we have curated the best possible agenda for our audience and lined up excellent keynotes from industry leaders.</p>
+                <div class="icon-container">
+                <img src="./images/lecture.png" alt="Lecture icon">
+                </div>
+                <h3 class="lecture-title">Lecture</h3>
+                <p class="lecture-desc">We have curated and lined up excellent keynotes from industry leaders.</p>
 
             </div>
             <div class="lecture">
-                <img src="" alt="">
-                <h3>Exhibition</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, dolorum eaque ipsa suscipit voluptatem nihil eveniet rem veniam</p>
+                <div class="icon-container">
+                <img src="./images/CC.png" alt="Exhibition icon">
+                </div>
+                <h3 class="lecture-title">Exhibition</h3>
+                <p class="lecture-desc">innovations from emerging tech hubs across Africa will be showcased.</p>
             </div>
             <div class="lecture">
-                <i class="fa fa-forum"></i>
-                <h3>forum</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure molestiae incidunt totam iusto deserunt sequi rerum.</p>
+                <div class="icon-container">
+                <img src="./images/forum.png" alt="Forum icon">
+                </div>
+                <h3 class="lecture-title">forum</h3>
+                <p class="lecture-desc">Forum to engage industry leaders with time to share your opinions.</p>
             </div>
             <div class="lecture">
-                <i class="fa fa-handshake"></i>
-                <h3>Network</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illo dignissimos, non dolorum culpa minus quae, labore</p>
+                <div class="icon-container">
+                <img src="./images/workshop.png" alt="Workshop icon">
+                </div>
+                <h3 class="lecture-title">Workshop</h3>
+                <p class="lecture-desc">Rather than observation, there will be flexibility for hands on learning</p>
             </div>
             <div class="lecture">
-                <img src="" alt="">
-                <h3>Workshop</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit repellat ex ullam unde, corrupti saepe nisi accusantium</p>
+                <div class="icon-container">
+                <img src="./images/ignite.png" alt="Ignite icon">
+                </div>
+                <h3 class="lecture-title">Ignite</h3>
+                <p class="lecture-desc">Network with IT leaders from all around Africa and the world.</p>
             </div>
-
+        </div>
+        <div class="btn-container">
             <button class="btn">Join The Africa Tech Summit 2022</button>
-        </article>
+            </div>
 
     </section>
 
@@ -100,6 +110,7 @@
             <h3>Featured Speaker</h3>
             <hr>
         </div>
+        <div class="card-container">
         <div class="card">
             <img src="./images/first.png" alt="Deborah Ojengbede">
             <div class="bio">
@@ -124,7 +135,7 @@
             <h3>Elizabeth Rosiello</h3>
             <p id="title"><em>Elizabeth Rossiello is the CEO and founder of AZA Finance</em></p>
             <hr>
-            <p>Elizabeth founded AZA Finance in 2013 in Nairobi, Kenya. a global fintech company that is accelerating economic growth in Africa through its best-in-class foreign exchange, payments, settlement and treasury services</p>
+            <p>Elizabeth founded AZA Finance in 2013 in Nairobi, Kenya.</p>
             </div>
         </div>
         <div class="card">
@@ -154,6 +165,8 @@
             <p>He’s an experienced ICT for Development Practitioner, with more than 10 years’ experience working with governments.</p>
             </div>
         </div>
+        </div>
+        <button class="speaker-btn">MORE</button>
 
     </section>
 
@@ -162,7 +175,24 @@
         <h3>Partners</h3>
         <hr>
         </div>
+        <div class="brand-logo">
+            <span class="partnerbrand_1">Facebook</span>
+            <span class="partnerbrand_2">Paystack</span>
+            <span class="partnerbrand_1">Uber</span>
+            <span class="partnerbrand_2">Google</span>
+            <span class="partnerbrand_1">Jumia</span>
+        </div>
 
     </section>
+
+    <footer>
+        <div class="base-container">
+        <img src="./images/tech-logo.png" alt="Africa Tech Summit Logo">
+        <div class="footer-content">
+        <p>2022 Africa Tech Summit. All rights reserved</p>
+        <p>The birth of a new Africa</p>
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
