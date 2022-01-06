@@ -1,319 +1,316 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .hambuger {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .toggle-menu {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background: rgba(60, 58, 57, 1);
-    color: white;
-  }
-  
-  #togclose {
-    position: absolute;
-    right: 68px;
-    top: 35px;
-  }
-  
-  .hambug-items {
-    width: 100%;
-    padding-top: 92px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+.hambuger {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
 
-  .menu {
-    list-style-type: none;
-  }
-  
-  .a-link {
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    font-family: 'lato', sans-serif;
-    font-size: 28px;
-    line-height: 44px;
-  }
-  
-  .topnav ul {
-    display: none;
-  }
-  
-  .navbar {
-    display: none;
-  }
-  
-  h1 {
-    font-family: "lato", sans-serif;
-    font-weight: 300;
-    color: #ec5242;
-  }
-  
-  h2 {
-    font-family: "COCOGOOSE", sans-serif;
-    font-weight: 700;
-    color: #ec5242;
-    font-size: 26px;
-    margin-bottom: 40px;
-  }
-  
-  hr {
-    width: 10%;
-    margin-top: 20px;
-    height: 2px;
-    background-color: #e41c06;
-  }
-  
-  .description {
-    font-family: "lato", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: white;
-    border: 3px solid white;
-    line-height: 24px;
-    color: #585858;
-  }
-  
-  p {
-    color: #585858;
-    text-align: center;
-    font-family: 'lato', sans-serif;
-    font-size: 15px;
-    font-size: 15px;
-    font-weight: 700;
-    margin-top: 10px;
-  }
+.toggle-menu {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(60, 58, 57, 1);
+  color: white;
+}
 
-  span {
-    font-weight: 900;
-    font-size: 15px;
-    text-decoration: underline;
+#togclose {
+  position: absolute;
+  right: 68px;
+  top: 35px;
+}
 
-  }
-  
-  .bars {
-    position: absolute;
-    padding: 20px 30px;
-  }
-  
-  .intro {
-    margin-top: 100px;
-  }
-  
-  .hero {
-    background-image: url('../images/about-bg.png');
-    background-color: #e9e7e7;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10px 30px;
-    width: 100%;
-    height: 100vh;
-    line-height: 25px;
-  }
+.hambug-items {
+  width: 100%;
+  padding-top: 92px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 
-  .summit-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 30px;
-    border-bottom: 1px solid #f0f0f0;
-  }
+.menu {
+  list-style-type: none;
+}
 
-  .summit-head {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    
-  }
+.a-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'lato', sans-serif;
+  font-size: 28px;
+  line-height: 44px;
+}
 
-  .summit-head h2 {
-    font-family: 'lato', sans-serif;
-    color: #585858;
-    text-align: center;
-  }
+.topnav ul {
+  display: none;
+}
 
-  .summit-head hr {
-    margin-top: -23px;
-  }
+.navbar {
+  display: none;
+}
+
+h1 {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  color: #ec5242;
+}
+
+h2 {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 700;
+  color: #ec5242;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 10%;
+  margin-top: 20px;
+  height: 2px;
+  background-color: #e41c06;
+}
+
+.description {
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 3px solid white;
+  line-height: 24px;
+  color: #585858;
+}
+
+p {
+  color: #585858;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+span {
+  font-weight: 900;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.bars {
+  position: absolute;
+  padding: 20px 30px;
+}
+
+.intro {
+  margin-top: 100px;
+}
+
+.hero {
+  background-image: url('../images/about-bg.png');
+  background-color: #e9e7e7;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 30px;
+  width: 100%;
+  height: 100vh;
+  line-height: 25px;
+}
+
+.summit-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.summit-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.summit-head h2 {
+  font-family: 'lato', sans-serif;
+  color: #585858;
+  text-align: center;
+}
+
+.summit-head hr {
+  margin-top: -23px;
+}
 
 .summit-logo p {
-    font-size: 17px;
-    margin-top: 20px;
+  font-size: 17px;
+  margin-top: 20px;
 }
 
-  .afrilogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    border: 1px solid #f0f0f0;
-    margin-top: 30px;
-  }
+.afrilogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #f0f0f0;
+  margin-top: 30px;
+}
 
 .past-events {
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 
-  .past {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
+.past {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
 
-  .past h2 {
-    font-size: 25px;
-    color: black;
-    font-family: 'lato', sans-serif;
-  }
+.past h2 {
+  font-size: 25px;
+  color: black;
+  font-family: 'lato', sans-serif;
+}
 
-  .past hr {
-    margin-top: -6%;
-  }
+.past hr {
+  margin-top: -6%;
+}
 
-  .past-events p {
-    margin-top: 12px;
-  }
+.past-events p {
+  margin-top: 12px;
+}
 
-  .event-container {
-      margin-top: 50px;
-  }
+.event-container {
+  margin-top: 50px;
+}
 
-  .second-event {
-    background-image: url('../images/nationtech.jpg');
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 194px;
-  }
+.second-event {
+  background-image: url('../images/nationtech.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 194px;
+}
 
-  .first-event {
-    background-image: url('../images/techevent.png');
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 194px;
-  }
+.first-event {
+  background-image: url('../images/techevent.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 194px;
+}
 
-  .year {
-    color: white;
-    font-weight: 500;
+.year {
+  color: white;
+  font-weight: 500;
 }
 
 .city {
-   color: white;
+  color: white;
 }
 
-  .partners {
+.partners {
   display: block;
-    margin-top: 60px;
-    text-align: center;
-    background-color: #272a31;
+  margin-top: 60px;
+  text-align: center;
+  background-color: #272a31;
+}
+
+@media only screen and (min-width: 768px) {
+  .hambuger {
+    display: none;
   }
 
-  @media only screen and (min-width: 768px) {
-    .hambuger {
-      display: none;
-    }
-  
-    .topnav {
-      background-color: #272a31;
-      height: 35px;
-      padding-right: 120px;
-    }
-  
-    .topnav ul {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      list-style-type: none;
-    }
-  
-    .topnav a {
-      padding: 10px;
-      text-decoration: none;
-      color: white;
-    }
-  
-    .topnav .fa-facebook {
-      color: white;
-    }
-  
-    .topnav .fa-twitter {
-      color: white;
-    }
-  
-    .navbar {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 70px;
-      background-color: white;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    }
-  
-    .navbar ul {
-      display: flex;
-      align-items: center;
-      list-style-type: none;
-    }
-  
-    .navbar a {
-      text-decoration: none;
-      padding: 25px;
-      color: #272a31;
-    }
-  
-    .border-about {
-        border: 4px solid #e41c06;
-        color: #e41c06;
-        padding: 10px;
-    }
-  
-  /* Desktop Hero section */
-  
-.hero {
-    height: 100vh;
-}
+  .topnav {
+    background-color: #272a31;
+    height: 35px;
+    padding-right: 120px;
+  }
 
-    .intro {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 10%;
-    }
-  
-    h1 {
-        font-size: 40px;
-    }
-  
-    h2 {
-        font-weight: 900;
-        text-align: center;
-        font-size: 40px;
-    }
-  
-    .description {
-        width: 90%;
-        text-align: center;
-    }
-}  
+  .topnav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .topnav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .topnav .fa-facebook {
+    color: white;
+  }
+
+  .topnav .fa-twitter {
+    color: white;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    padding: 25px;
+    color: #272a31;
+  }
+
+  .border-about {
+    border: 4px solid #e41c06;
+    color: #e41c06;
+    padding: 10px;
+  }
+
+  /* Desktop Hero section */
+
+  .hero {
+    height: 100vh;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .description {
+    width: 90%;
+    text-align: center;
+  }
+}

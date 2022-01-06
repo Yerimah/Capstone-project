@@ -142,7 +142,7 @@ p {
 }
 
 .main-blocks {
-    padding: 30px;
+  padding: 30px;
 }
 
 .lecture {
@@ -161,7 +161,7 @@ p {
 }
 
 .lecture p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .btn-container {
@@ -305,65 +305,65 @@ article {
   }
 
   .border-about {
-      border: 4px solid #e41c06;
-      color: #e41c06;
-      padding: 10px;
+    border: 4px solid #e41c06;
+    color: #e41c06;
+    padding: 10px;
   }
 
-/* Desktop Hero section */
+  /* Desktop Hero section */
 
   .intro {
-      padding-left: 10%;
+    padding-left: 10%;
   }
 
   h1 {
-      font-size: 40px;
+    font-size: 40px;
   }
 
   h2 {
-      font-weight: 900;
-      font-size: 60px;
+    font-weight: 900;
+    font-size: 60px;
   }
 
   .description {
-      width: 50%;
+    width: 50%;
   }
 
-/* Main program section */
+  /* Main program section */
 
   .main-blocks {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px;
   }
 
   .lecture {
-      display: grid;
-      grid-template-columns: 100%;
-      margin: 3px;
-      text-align: center;
-      padding: 10% 2%;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 3px;
+    text-align: center;
+    padding: 10% 2%;
   }
 
   .lecture p {
-      line-height: 20px;
-      font-size: 12px;
+    line-height: 20px;
+    font-size: 12px;
   }
 
   .btn-container {
-      margin: 0;
+    margin: 0;
   }
 
   /* Desktop Speaker Section */
 
   .featured {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   .card-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
   }
 
   .speaker-btn {
@@ -394,40 +394,38 @@ article {
   }
 
   .brand-logo {
-      display: flex;
-      justify-content: center;
-      margin-top: 26px;
-      font-size: 25px;
-      font-weight: 700;
-      color: #8d8c8c;
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #8d8c8c;
   }
 
   .partnerbrand_1 {
-      margin: 10px;
-      padding: 0 10px 40px 10px;
+    margin: 10px;
+    padding: 0 10px 40px 10px;
   }
 
   .partnerbrand_2 {
-      margin: 10px;
-      padding: 0 10px 15px 10px;
+    margin: 10px;
+    padding: 0 10px 15px 10px;
+  }
 
-    }
+  .base-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    align-items: center;
+  }
 
-    .base-container {
-        display: flex;
-        justify-content: flex-start;
-        padding-left: 10%;
-        align-items: center;
-    }
+  .footer-content {
+    margin-left: 40px;
+    font-weight: 900;
+  }
 
-    .footer-content {
-        margin-left: 40px;
-        font-weight: 900;
-    }
-
-    footer {
-      font-family: "lato", sans-serif;
-      margin: 50px;
-}
-    
+  footer {
+    font-family: "lato", sans-serif;
+    margin: 50px;
+  }
 }

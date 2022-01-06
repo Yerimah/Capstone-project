@@ -2,9 +2,9 @@
 
 # My Capstone Project
 
-This is the setup and mobile version skeleton of my Capstone project
+This is the setup of my Capstone project. The project is a conference about Africa Tech Summit aimed at showcasing innovations and ideas from Africa as well as creating an Opportunity for tech talents and global industry leaders to network.
 
-
+![ConferenceP](https://user-images.githubusercontent.com/71140133/148365496-06eeed42-497d-4cbc-82a0-d4291110d10b.PNG)
 
 
 Additional description about the project and its features.
@@ -54,8 +54,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- Hats of to the Microverse Team
+- Design and inspiration by **Cindy Shin on Behance**
 - etc
 
 ## 📝 License
