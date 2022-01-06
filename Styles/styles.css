@@ -222,9 +222,23 @@ article {
   color: #555;
 }
 
+.show-less {
+  display: none;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  margin-top: 70px;
+  color: #555;
+}
+
 .card {
   display: flex;
   margin-bottom: 30px;
+}
+
+.card:not(:first-child):not(:nth-child(2)) {
+  display: none;
 }
 
 .bio {
@@ -366,7 +380,15 @@ article {
     gap: 25px;
   }
 
+  .card:not(:first-child):not(:nth-child(2)) {
+    display: flex;
+  }
+
   .speaker-btn {
+    display: none;
+  }
+
+  .show-less {
     display: none;
   }
 
