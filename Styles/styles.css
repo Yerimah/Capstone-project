@@ -426,11 +426,13 @@ article {
 
   .partnerbrand_1 {
     margin: 10px;
+    font-family: 'COCOGOOSE', sans-serif;
     padding: 0 10px 40px 10px;
   }
 
   .partnerbrand_2 {
     margin: 10px;
+    font-family: 'lato', sans-serif;
     padding: 0 10px 15px 10px;
   }
 

@@ -68,13 +68,12 @@ const projectData = [
   },
 ];
 
-
 const cards = document.querySelector('.card-container');
-for(let i = 0; i < projectData.length; i += 1) {
-    const speakers = document.createElement('div');
-    speakers.className = 'card';
+for (let i = 0; i < projectData.length; i += 1) {
+  const speakers = document.createElement('div');
+  speakers.className = 'card';
 
-    const fcards = `
+  const fcards = `
     <div>
     <img src="${projectData[i].image}" alt="featured-speaker">
     </div>
@@ -86,30 +85,30 @@ for(let i = 0; i < projectData.length; i += 1) {
     </div>
     `;
 
-    speakers.innerHTML = fcards;
-    cards.appendChild(speakers);
-};
+  speakers.innerHTML = fcards;
+  cards.appendChild(speakers);
+}
 
 const moreBtn = document.querySelector('.speaker-btn');
 const lessBtn = document.querySelector('.show-less');
 
-moreBtn.addEventListener('click', ()=> {
-    document.querySelectorAll('.card').forEach((c) => {
-        c.style.display = 'flex';
-      }); 
-      
-      lessBtn.style.display = 'block'
+moreBtn.addEventListener('click', () => {
+  document.querySelectorAll('.card').forEach((c) => {
+    c.style.display = 'flex';
+  });
 
-      moreBtn.style.display = 'none'
-})
+  lessBtn.style.display = 'block';
 
-lessBtn.addEventListener('click', () =>{
-    document.querySelectorAll('.card:not(:first-child):not(:nth-child(2))')
-      .forEach((c) => {
-        c.style.display = 'none';
-      });
+  moreBtn.style.display = 'none';
+});
 
-      lessBtn.style.display = 'none'
+lessBtn.addEventListener('click', () => {
+  document.querySelectorAll('.card:not(:first-child):not(:nth-child(2))')
+    .forEach((c) => {
+      c.style.display = 'none';
+    });
 
-      moreBtn.style.display = 'block'
-})
+  lessBtn.style.display = 'none';
+
+  moreBtn.style.display = 'block';
+});
