@@ -21,7 +21,6 @@
   top: 0;
   left: 0;
   background: rgba(60, 58, 57, 1);
-  color: white;
 }
 
 #togclose {
@@ -69,7 +68,6 @@ h2 {
   font-weight: 700;
   color: #ec5242;
   font-size: 42px;
-  margin-bottom: 40px;
 }
 
 .main-head h3 {
@@ -121,28 +119,24 @@ p {
 }
 
 .intro {
-  margin-top: 100px;
+  margin-top: 97px;
 }
 
 .hero {
   padding: 10px 30px;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgb(211, 211, 211, 0.4), rgb(211, 211, 211, 0.4)), url(./images/desktop.jpg) no-repeat;
+  background: linear-gradient(rgba(211, 211, 211, 0.315), rgb(211, 211, 211, 0.4)), url('./images/desktop.jpg') no-repeat;
 }
 
 /* Style for main program section */
 
 .main-program {
-  background-image: url(./images/programback.png);
+  background-image: url('./images/programback.png');
   background-color: #272a31;
   background-repeat: repeat;
   padding: 10px 30px;
   font-family: "lato", sans-serif;
-}
-
-.main-blocks {
-  padding: 30px;
 }
 
 .lecture {
@@ -151,17 +145,19 @@ p {
   color: white;
   grid-template-columns: 18% 18% 58%;
   background-color: #5f5f5f50;
-  grid-column-gap: 3%;
-  padding: 4% 1%;
-  margin-top: 20px;
+  grid-column-gap: 5%;
+  padding: 4% 3%;
+  margin: 30px 10px 0 10px;
 }
 
 .lecture h3 {
   color: #ec5242;
+  font-size: 15px;
 }
 
 .lecture p {
   font-size: 15px;
+  margin: 10px;
 }
 
 .btn-container {
@@ -327,7 +323,8 @@ article {
   /* Desktop Hero section */
 
   .intro {
-    padding-left: 10%;
+    padding-left: 5%;
+    margin-top: 100px;
   }
 
   h1 {
