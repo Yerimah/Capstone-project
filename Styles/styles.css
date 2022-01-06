@@ -26,8 +26,8 @@
 
 #togclose {
   position: absolute;
-  right: 20px;
-  top: 48px;
+  right: 68px;
+  top: 35px;
 }
 
 .hambug-items {
@@ -35,6 +35,19 @@
   padding-top: 92px;
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.a-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'lato', sans-serif;
+  font-size: 28px;
+  line-height: 44px;
 }
 
 .topnav ul {
@@ -231,6 +244,10 @@ article {
 }
 
 .partners {
+  display: none;
+}
+
+.base-container {
   display: none;
 }
 

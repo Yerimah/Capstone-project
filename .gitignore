@@ -1,5 +1,5 @@
 node_modules/
 
-test.md/
+/test.md
 package.json/
 package-lock.json/
