@@ -4,7 +4,7 @@
 
 This is the setup of my Capstone project. The project is a conference about Africa Tech Summit aimed at showcasing innovations and ideas from Africa as well as creating an Opportunity for tech talents and global industry leaders to network.
 
-![ConferenceP](https://user-images.githubusercontent.com/71140133/148365496-06eeed42-497d-4cbc-82a0-d4291110d10b.PNG)
+![Conferencehome](https://user-images.githubusercontent.com/71140133/148530889-2f36b166-3853-4f24-916d-17999a72e449.PNG)
 
 
 Additional description about the project and its features.
