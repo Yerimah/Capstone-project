@@ -16,8 +16,6 @@ closetog.addEventListener('click', close);
 
 document.querySelectorAll('.list-menu').forEach((link) => link.addEventListener('click', close));
 
-// Dynamic Speaker Section
-
 const projectData = [
   {
     id: 0,
